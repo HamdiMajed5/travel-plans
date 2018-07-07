@@ -28,6 +28,11 @@ flex-flow: wrap;
 justify-content: center;
 }
 
+
+.destination.destination:hover:hover  h2h2  {
+{ transformtransform::  rotaterotate((0deg0deg));
+}; }
+
 .destination {
 background: #03a9f4;
 box-shadow: 0 1px 9px 0 rgba(0, 0, 0, 0.4);
@@ -45,6 +50,7 @@ h2 {
 margin: 0;
 transform: rotate(-45deg);
 text-shadow: 0 0 5px #01579b;
+ transition: transform 0.5s;
 }
 
 #florida {
